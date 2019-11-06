@@ -1,9 +1,10 @@
 # PythonC paranoYa
 This repository shows basic implementation of calling C library in Python script. This repository is part of paranoYa project. 
 
-Used library: ctypes
+Used libraries: 
++ ctypes
 
-##Tutorial
+## Tutorial
 
 Firstly, you have to create **Shared Object** (*.so*) from *.c* file. This can be done by command of GCC compiler:
 
