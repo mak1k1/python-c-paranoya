@@ -1,6 +1,6 @@
 from ctypes import *
-so_file = '/home/mohan/paranoYa/c/example.so'
+so_file = '/home/mohan/paranoYa/c/lib.so'
 example = CDLL(so_file)
 
-example.test_empty()
-print(example.test_add(5, 6))
+
+print(example)
